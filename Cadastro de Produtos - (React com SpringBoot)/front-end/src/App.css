@@ -1,0 +1,38 @@
+form{
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form input{
+  margin-bottom: 5px;
+}
+
+form input[type='button']{
+  margin-right: 10px;
+}
+
+.table {
+  width: 50vw;
+  color: #212529;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.bg{
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25vw;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
